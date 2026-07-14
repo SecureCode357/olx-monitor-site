@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — OlxMonitor</title>
+<meta name="description" content="How OlxMonitor collects, stores, and uses your data.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">
+      <span class="logo-mark">DW</span>
+      <span class="logo-word">OlxMonitor</span>
+    </a>
+    <nav aria-label="Primary">
+      <ul class="nav-links">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#how-it-works">How it works</a></li>
+        <li><a href="index.html#how-to-use">How to use</a></li>
+        <li><a href="index.html#pricing">Pricing</a></li>
+        <li><a href="index.html#faq">FAQ</a></li>
+      </ul>
+    </nav>
+    <div class="nav-right">
+      <a href="index.html#pricing" class="btn btn-primary">Start free trial</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section class="legal-hero">
+  <div class="wrap">
+    <a href="index.html" class="back-link">← Back to OlxMonitor</a>
+    <h1>Privacy Policy</h1>
+    <div class="legal-updated">Last updated: July 2026</div>
+  </div>
+</section>
+
+<section class="legal-body">
+
+  <div class="legal-note">
+    <p><strong>Plain-language summary:</strong> we store your Telegram chat ID and the searches you set up (city, keyword, budget), so we can send you alerts and remember your account status. We don't collect card details, ever — payment is by UPI and confirmed by hand. We don't sell or share your data with advertisers.</p>
+  </div>
+
+  <h2>1. Who this applies to</h2>
+  <p>
+    This policy covers the OlxMonitor Telegram bot and this website. OlxMonitor
+    is an independently operated tool and is not affiliated with, endorsed
+    by, or operated on behalf of OLX India or Telegram FZ-LLC.
+  </p>
+
+  <h2>2. What we collect</h2>
+  <p>When you use the OlxMonitor bot, we store:</p>
+  <ul>
+    <li><strong>Your Telegram chat ID</strong> — a numeric identifier Telegram assigns to your account, used to send you alerts and identify your subscriptions. We do not collect your phone number, Telegram username, or profile photo.</li>
+    <li><strong>Your search details</strong> — the city, keyword, and budget range for each search you set up.</li>
+    <li><strong>Your account status</strong> — trial start/end dates, and (if you've paid) your plan's paid-until date.</li>
+    <li><strong>Payment reference numbers</strong> — if you send a UTR/transaction id via <code>/verify</code>, it's forwarded to the operator for manual confirmation. We never ask for or store card numbers, UPI PINs, or bank credentials — payment happens entirely within your own UPI app.</li>
+    <li><strong>Conversation state</strong> — a temporary record of where you are in a guided setup flow (e.g. "waiting for budget"), cleared once you finish or cancel.</li>
+  </ul>
+
+  <h2>3. What we don't collect</h2>
+  <ul>
+    <li>We don't read or store your other Telegram messages, contacts, or chats outside this bot.</li>
+    <li>We don't collect your OLX login or password — listing data comes from OLX's publicly visible search results.</li>
+    <li>We don't use tracking cookies or advertising pixels on this website.</li>
+  </ul>
+
+  <h2>4. How we use your data</h2>
+  <ul>
+    <li>To run your saved searches against OLX and send you matching listings.</li>
+    <li>To track your free trial and subscription status.</li>
+    <li>To respond to support requests and payment verifications.</li>
+    <li>To improve reliability (for example, diagnosing why an alert didn't send).</li>
+  </ul>
+  <p>We do not use your data for advertising, and we do not sell or rent it to third parties.</p>
+
+  <h2>5. Where your data lives</h2>
+  <p>
+    OlxMonitor stores data in structured files managed through GitHub and
+    processed by scheduled automation (GitHub Actions). This is a
+    lightweight setup appropriate for a small, independent service — it
+    is not the same infrastructure a large company would use, and you
+    should weigh that when deciding how much you rely on the service.
+  </p>
+
+  <h2>6. Third parties involved</h2>
+  <p>Running OlxMonitor necessarily involves a few outside services:</p>
+  <ul>
+    <li><strong>Telegram</strong> — delivers messages between you and the bot, under Telegram's own privacy policy.</li>
+    <li><strong>OLX</strong> — the source of listing data; we only access publicly visible search results.</li>
+    <li><strong>GitHub</strong> — hosts the automation that runs searches and stores subscription data.</li>
+    <li><strong>Your UPI provider</strong> (Google Pay, PhonePe, etc.) — handles the actual payment; OlxMonitor never touches your money directly or sees your bank details.</li>
+  </ul>
+
+  <h2>7. How long we keep your data</h2>
+  <p>
+    We keep your subscription and account data for as long as your
+    account is active. If you remove all your searches and don't use the
+    bot again, your data may still persist in storage until manually
+    cleaned up. You can request full deletion at any time (see Section 9).
+  </p>
+
+  <h2>8. Data security</h2>
+  <p>
+    We take reasonable steps to keep your data secure, but no online
+    service can guarantee absolute security. Given the lightweight,
+    independently-run nature of this project, please don't use OlxMonitor
+    to store or transmit anything sensitive beyond what's needed for it
+    to function (your search preferences and payment reference numbers).
+  </p>
+
+  <h2>9. Your rights</h2>
+  <p>You can, at any time:</p>
+  <ul>
+    <li>See your active searches with <code>/list</code> or <code>/status</code></li>
+    <li>Remove a search with <code>/remove</code></li>
+    <li>Request full account deletion by contacting us (see below) — we'll remove your chat ID, searches, and billing record</li>
+  </ul>
+
+  <h2>10. Age requirement</h2>
+  <p>
+    OlxMonitor involves real payments and is intended for users 18 years
+    or older. We don't knowingly collect data from minors.
+  </p>
+
+  <h2>11. Changes to this policy</h2>
+  <p>
+    If this policy changes materially, we'll update the "last updated"
+    date above. Continued use of the bot after a change means you accept
+    the updated policy.
+  </p>
+
+  <h2>12. Contact</h2>
+  <p>
+    Questions about this policy or your data: message
+    <a href="https://t.me/OlxMonitorBot">@OlxMonitorBot</a> on Telegram or
+    email <a href="mailto:support@dealwire.example">support@dealwire.example</a>.
+  </p>
+
+  <div class="legal-note">
+    <p><strong>Note for operators:</strong> this policy is a starting template describing how the underlying bot actually works. If you're deploying this for real users, especially ones sending you payment references, have it reviewed by a lawyer familiar with Indian data protection law (including the DPDP Act) before launch.</p>
+  </div>
+
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="logo-word">OlxMonitor</span>
+        <p>A Telegram bot that watches OLX for your exact search and tells you the moment something matches.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="index.html#how-it-works">How it works</a></li>
+          <li><a href="index.html#how-to-use">How to use</a></li>
+          <li><a href="index.html#pricing">Pricing</a></li>
+          <li><a href="index.html#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="privacy.html">Privacy policy</a></li>
+          <li><a href="terms.html">Terms of service</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="https://t.me/OlxMonitorsBot">t.me/OlxMonitorsBot</a></li>
+          <li><a href="mailto:support@olxmonitor.in">support@olxmonitor.in</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 OlxMonitor. Not affiliated with OLX India or Telegram FZ-LLC.</span>
+      <span>Built for people tired of refreshing.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
