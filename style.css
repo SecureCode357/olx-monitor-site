@@ -552,8 +552,8 @@ p:last-child { margin-bottom: 0; }
    PRICING -- the price tag
    ============================================================ */
 .pricing-wrap {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 2rem;
 }
 
@@ -652,6 +652,12 @@ p:last-child { margin-bottom: 0; }
   color: var(--ink-faint);
   text-align: center;
   margin-top: 14px;
+}
+
+@media (max-width: 768px) {
+  .nav-right .btn-primary {
+    display: none;
+  }
 }
 /* ============================================================
    FAQ
