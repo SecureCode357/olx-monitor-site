@@ -558,7 +558,7 @@ p:last-child { margin-bottom: 0; }
 }
 
 .price-tag.featured {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .price-tag.featured::before {
@@ -586,7 +586,7 @@ p:last-child { margin-bottom: 0; }
   width: 100%;
   padding: 36px 34px;
   position: relative;
-  transform: scale(.9);
+  transform: scale(.95);
   box-shadow: 7px 7px 0 var(--stamp);
 }
 .price-tag::before {
